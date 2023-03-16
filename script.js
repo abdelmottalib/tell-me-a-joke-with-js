@@ -9,7 +9,7 @@ const VoiceRSS={speech:function(e){this._validate(e),this._request(e)},_validate
 
 function tellMe(joke) {
 	VoiceRSS.speech({
-		key: 'api_key',
+		key: 'f553b53737e24d8989793c2271f1e315',
 		src: joke,
 		hl: 'en-us',
 		v: 'Linda',
